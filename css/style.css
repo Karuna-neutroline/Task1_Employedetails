@@ -1,0 +1,65 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-size: 62.5%;
+}
+
+
+.main-container {
+    margin-top: 7rem;
+    background-color: #f0f0f8;
+}
+.dashboard-title {
+    font-size: 1.8rem;
+}
+.dashboard-subtitle {
+    font-size: 1.7rem;
+    color: #3a3838;
+}
+.employee-dashboard-profile-box {
+    border: solid 0.35rem #C8C8EB;
+    margin-top: 1.3rem;
+    border-radius: 3rem;
+
+}
+.profile-box .profile-head {
+    margin-top: 2rem;
+}
+.profile-box .profile-head-info .name-info .name {
+    color: #305496;
+    font-size: 6rem;
+}
+.profile-box .profile-head-info .name-info .preferred-name {
+    color: #305496;
+    font-size: 1.8rem;
+}
+.profile-head .profile-img img {
+    width: 22.5rem;
+    height: 22.5rem;
+    border: solid 0.1rem #4472c4;
+    border-radius: 3rem;
+    background-color: #deebf7;
+    object-fit: cover;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.profile-box .profile-head-info {
+    margin-left: 3rem;
+    flex-basis: 66%;
+}
+.profile-head .profile-head-info .profile-head-subinfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.4rem;
+}
+.font-family-calibri {
+    font-family: 'Calibri';
+}
